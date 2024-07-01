@@ -300,3 +300,47 @@ font-size: 0.9rem;
         width: 200px;
     }
 }
+
+/**/
+.side-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.side-nav a {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    margin-right: 0;
+}
+/**/
+
+/**/
+.edit-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.edit-form .input-wrapper.left {
+    align-items: end;
+    margin: 0;
+}
+.edit-form .input-wrapper.right {
+    align-items: start;
+    margin: 0;
+}
+
+.edit-form .button-wrapper {
+    display: flex;
+}
+.edit-form .button-wrapper.left {
+    justify-content: end;
+}
+.edit-form .button-wrapper.right {
+    justify-content: start;
+}
+.edit-form .button-wrapper button {
+    width: auto;
+    margin: 0;
+}
+/**/
